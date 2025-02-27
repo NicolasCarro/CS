@@ -12,3 +12,7 @@
 a{
     margin-left: 15PX;
 }
+*{
+    padding: 0%;
+    margin: 0%;
+}
