@@ -1,7 +1,8 @@
 .Cuerpo{
-    width: 1350px;
-    margin-top: -10PX;
-    margin-left: -10px;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    
 }
 .qr{
     width: 190px;
@@ -10,5 +11,41 @@
     margin-left: -240;
 }
 a{
-    margin-left: 15PX;
+    margin-left: 35PX;
+}
+.slider{
+    width: 25vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.slider .slide-track{
+    display: flex;
+    animation: scroll 10s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    width: calc(200px * 6);
+}
+.slider .slide{
+    width: 250px;
+}
+.slider .slide img{
+    width: 100%;
+    
+}
+@keyframes scroll {
+    0%{
+        -webkit-transform: translatex(0);
+        transform: translatex(0);
+    }
+    100%{
+        -webkit-transform: translatex(calc(-200px * 3));
+        transform: translatex(calc(-200px * 3));
+    }
+}
+body{
+    background-color: #ed0b13;
+}
+a{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
