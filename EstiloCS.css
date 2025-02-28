@@ -5,9 +5,9 @@
     
 }
 .qr{
-    width: 190px;
-    height: 180px;
-    margin-top: -4500px;
+    width: auto;
+    height: auto;
+    margin-top: -100;
     margin-left: -240;
 }
 a{
